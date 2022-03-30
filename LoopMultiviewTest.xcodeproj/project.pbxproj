@@ -1,0 +1,891 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E038CFE227B2EC1600BB441A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038CFE127B2EC1600BB441A /* AppDelegate.swift */; };
+		E038CFE427B2EC1600BB441A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038CFE327B2EC1600BB441A /* SceneDelegate.swift */; };
+		E038CFE627B2EC1600BB441A /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038CFE527B2EC1600BB441A /* profileViewController.swift */; };
+		E038CFE927B2EC1600BB441A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E038CFE727B2EC1600BB441A /* Main.storyboard */; };
+		E038CFEB27B2EC1800BB441A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E038CFEA27B2EC1800BB441A /* Assets.xcassets */; };
+		E038CFEE27B2EC1800BB441A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E038CFEC27B2EC1800BB441A /* LaunchScreen.storyboard */; };
+		E038CFF927B2EC1800BB441A /* LoopMultiviewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038CFF827B2EC1800BB441A /* LoopMultiviewTestTests.swift */; };
+		E038D00327B2EC1800BB441A /* LoopMultiviewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038D00227B2EC1800BB441A /* LoopMultiviewTestUITests.swift */; };
+		E038D00527B2EC1800BB441A /* LoopMultiviewTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038D00427B2EC1800BB441A /* LoopMultiviewTestUITestsLaunchTests.swift */; };
+		E038D01327B2F36600BB441A /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038D01227B2F36600BB441A /* CollectionViewController.swift */; };
+		E038D01527B2FD4500BB441A /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038D01427B2FD4500BB441A /* RecordViewController.swift */; };
+		E038D01727B2FD6100BB441A /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038D01627B2FD6100BB441A /* PlayViewController.swift */; };
+		E076751A27ED40E900401918 /* depressionDA.png in Resources */ = {isa = PBXBuildFile; fileRef = E076751327ED40E800401918 /* depressionDA.png */; };
+		E076751B27ED40E900401918 /* confidenceDA.png in Resources */ = {isa = PBXBuildFile; fileRef = E076751427ED40E800401918 /* confidenceDA.png */; };
+		E076751C27ED40E900401918 /* moneyDA.png in Resources */ = {isa = PBXBuildFile; fileRef = E076751527ED40E800401918 /* moneyDA.png */; };
+		E076751D27ED40E900401918 /* LoveDA.png in Resources */ = {isa = PBXBuildFile; fileRef = E076751627ED40E800401918 /* LoveDA.png */; };
+		E076751E27ED40E900401918 /* weightLossDA.png in Resources */ = {isa = PBXBuildFile; fileRef = E076751727ED40E800401918 /* weightLossDA.png */; };
+		E076751F27ED40E900401918 /* sicknessDA.png in Resources */ = {isa = PBXBuildFile; fileRef = E076751827ED40E900401918 /* sicknessDA.png */; };
+		E076752227ED421300401918 /* anxietyDA.png in Resources */ = {isa = PBXBuildFile; fileRef = E076752127ED421300401918 /* anxietyDA.png */; };
+		E076752527ED7EBE00401918 /* weightLossDAB.png in Resources */ = {isa = PBXBuildFile; fileRef = E076752327ED7EBE00401918 /* weightLossDAB.png */; };
+		E076752627ED7EBE00401918 /* confidenceDAB.png in Resources */ = {isa = PBXBuildFile; fileRef = E076752427ED7EBE00401918 /* confidenceDAB.png */; };
+		E0780AA227D595DC0015439F /* weightLoss3.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780A8F27D595DB0015439F /* weightLoss3.png */; };
+		E0780AA327D595DC0015439F /* money2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780A9027D595DB0015439F /* money2.png */; };
+		E0780AA427D595DC0015439F /* self doubt.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780A9127D595DB0015439F /* self doubt.png */; };
+		E0780AA527D595DC0015439F /* promotion.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780A9227D595DB0015439F /* promotion.png */; };
+		E0780AA627D595DC0015439F /* sleep.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780A9327D595DC0015439F /* sleep.png */; };
+		E0780AA827D595DC0015439F /* stress.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780A9527D595DC0015439F /* stress.png */; };
+		E0780AA927D595DC0015439F /* pain.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780A9627D595DC0015439F /* pain.png */; };
+		E0780AAA27D595DC0015439F /* big idea.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780A9727D595DC0015439F /* big idea.png */; };
+		E0780AAB27D595DC0015439F /* loss.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780A9827D595DC0015439F /* loss.png */; };
+		E0780AAC27D595DC0015439F /* marriage.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780A9927D595DC0015439F /* marriage.png */; };
+		E0780AAD27D595DC0015439F /* friends.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780A9A27D595DC0015439F /* friends.png */; };
+		E0780AAF27D595DC0015439F /* anxiety.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780A9C27D595DC0015439F /* anxiety.png */; };
+		E0780AB027D595DC0015439F /* physical pain.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780A9D27D595DC0015439F /* physical pain.png */; };
+		E0780AB227D595DC0015439F /* love2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780A9F27D595DC0015439F /* love2.png */; };
+		E0780AB327D595DC0015439F /* deadlines.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780AA027D595DC0015439F /* deadlines.png */; };
+		E0780AB427D595DC0015439F /* new job.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780AA127D595DC0015439F /* new job.png */; };
+		E07F068C27F100D6001F1293 /* depression.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F068727F100D6001F1293 /* depression.png */; };
+		E07F068D27F100D6001F1293 /* addiction.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F068827F100D6001F1293 /* addiction.png */; };
+		E07F068E27F100D6001F1293 /* sickness.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F068927F100D6001F1293 /* sickness.png */; };
+		E07F068F27F100D6001F1293 /* prof3.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F068A27F100D6001F1293 /* prof3.png */; };
+		E07F069027F100D6001F1293 /* Prof2.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F068B27F100D6001F1293 /* Prof2.png */; };
+		E07F069327F132C6001F1293 /* loopLogo3.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F069127F132C6001F1293 /* loopLogo3.png */; };
+		E07F069427F132C6001F1293 /* loopLogo2.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F069227F132C6001F1293 /* loopLogo2.png */; };
+		E08A956027DD9D8B00CCD405 /* AffirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A955F27DD9D8B00CCD405 /* AffirmationViewController.swift */; };
+		E0A309CF27B8D32400E720F5 /* ny.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A309CC27B8D32400E720F5 /* ny.png */; };
+		E0A309D027B8D32400E720F5 /* peace.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A309CD27B8D32400E720F5 /* peace.png */; };
+		E0A309D127B8D32400E720F5 /* sunset.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A309CE27B8D32400E720F5 /* sunset.png */; };
+		E0A309D527B8D85C00E720F5 /* prof1.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A309D227B8D85C00E720F5 /* prof1.png */; };
+		E0A309DD27B9521200E720F5 /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A309DA27B9521200E720F5 /* love.png */; };
+		E0A309DF27B9521200E720F5 /* health.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A309DC27B9521200E720F5 /* health.png */; };
+		E0A309E127B959A800E720F5 /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A309E027B959A800E720F5 /* sky.png */; };
+		E0A309E427B95B4300E720F5 /* SWgrey.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A309E227B95B4200E720F5 /* SWgrey.png */; };
+		E0A309E527B95B4300E720F5 /* SWcolor.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A309E327B95B4200E720F5 /* SWcolor.png */; };
+		E0A309EA27BB354100E720F5 /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A309E627BB354100E720F5 /* tree.png */; };
+		E0A309EB27BB354100E720F5 /* mountain.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A309E727BB354100E720F5 /* mountain.png */; };
+		E0A309EC27BB354100E720F5 /* view.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A309E827BB354100E720F5 /* view.png */; };
+		E0A309ED27BB354100E720F5 /* reflect.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A309E927BB354100E720F5 /* reflect.png */; };
+		E0A309EF27BB3F0100E720F5 /* SWBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A309EE27BB3F0100E720F5 /* SWBlue.png */; };
+		E0EBA80127EC1CFC00228E2D /* logo3.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EBA7FD27EC1CFC00228E2D /* logo3.png */; };
+		E0EBA80927ECE92100228E2D /* logoIndigo1.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EBA80727ECE92000228E2D /* logoIndigo1.png */; };
+		E0EBA80A27ECE92100228E2D /* logoIndigo2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EBA80827ECE92100228E2D /* logoIndigo2.png */; };
+		E0EBA80C27ECE98500228E2D /* marlinPP.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EBA80B27ECE98500228E2D /* marlinPP.png */; };
+		E0EBA81227ECFA0600228E2D /* money3.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EBA80D27ECFA0500228E2D /* money3.png */; };
+		E0EBA81327ECFA0600228E2D /* depression2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EBA80E27ECFA0500228E2D /* depression2.png */; };
+		E0EBA81527ECFA0600228E2D /* addiction2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EBA81027ECFA0500228E2D /* addiction2.png */; };
+		E0EBA81627ECFA0600228E2D /* sickness2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EBA81127ECFA0500228E2D /* sickness2.png */; };
+		E0EBA81827ECFA9700228E2D /* confidence2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EBA81727ECFA9700228E2D /* confidence2.png */; };
+		E0F3382927F2A0C600229AA1 /* loopLogo1.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F3382827F2A0C600229AA1 /* loopLogo1.png */; };
+		E0F3382B27F2A27800229AA1 /* logoIndigo3.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F3382A27F2A27800229AA1 /* logoIndigo3.png */; };
+		E0F3382D27F2A85A00229AA1 /* Heart Chakra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0F3382C27F2A85A00229AA1 /* Heart Chakra.mp3 */; };
+		E0F3382F27F2AB6500229AA1 /* Native Flute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0F3382E27F2AB6500229AA1 /* Native Flute.mp3 */; };
+		E0F3383127F2AB8D00229AA1 /* Sacral Chakra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0F3383027F2AB8D00229AA1 /* Sacral Chakra.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E038CFF527B2EC1800BB441A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E038CFD627B2EC1600BB441A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E038CFDD27B2EC1600BB441A;
+			remoteInfo = LoopMultiviewTest;
+		};
+		E038CFFF27B2EC1800BB441A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E038CFD627B2EC1600BB441A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E038CFDD27B2EC1600BB441A;
+			remoteInfo = LoopMultiviewTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E038CFDE27B2EC1600BB441A /* LoopMultiviewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoopMultiviewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E038CFE127B2EC1600BB441A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E038CFE327B2EC1600BB441A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E038CFE527B2EC1600BB441A /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		E038CFE827B2EC1600BB441A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E038CFEA27B2EC1800BB441A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E038CFED27B2EC1800BB441A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E038CFEF27B2EC1800BB441A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E038CFF427B2EC1800BB441A /* LoopMultiviewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoopMultiviewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E038CFF827B2EC1800BB441A /* LoopMultiviewTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopMultiviewTestTests.swift; sourceTree = "<group>"; };
+		E038CFFE27B2EC1800BB441A /* LoopMultiviewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoopMultiviewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E038D00227B2EC1800BB441A /* LoopMultiviewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopMultiviewTestUITests.swift; sourceTree = "<group>"; };
+		E038D00427B2EC1800BB441A /* LoopMultiviewTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopMultiviewTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E038D01227B2F36600BB441A /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionViewController.swift; path = LoopMultiviewTest/CollectionViewController.swift; sourceTree = SOURCE_ROOT; };
+		E038D01427B2FD4500BB441A /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		E038D01627B2FD6100BB441A /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		E076751327ED40E800401918 /* depressionDA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = depressionDA.png; sourceTree = "<group>"; };
+		E076751427ED40E800401918 /* confidenceDA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confidenceDA.png; sourceTree = "<group>"; };
+		E076751527ED40E800401918 /* moneyDA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moneyDA.png; sourceTree = "<group>"; };
+		E076751627ED40E800401918 /* LoveDA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoveDA.png; sourceTree = "<group>"; };
+		E076751727ED40E800401918 /* weightLossDA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weightLossDA.png; sourceTree = "<group>"; };
+		E076751827ED40E900401918 /* sicknessDA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sicknessDA.png; sourceTree = "<group>"; };
+		E076752127ED421300401918 /* anxietyDA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anxietyDA.png; sourceTree = "<group>"; };
+		E076752327ED7EBE00401918 /* weightLossDAB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weightLossDAB.png; sourceTree = "<group>"; };
+		E076752427ED7EBE00401918 /* confidenceDAB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confidenceDAB.png; sourceTree = "<group>"; };
+		E0780A8F27D595DB0015439F /* weightLoss3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weightLoss3.png; sourceTree = "<group>"; };
+		E0780A9027D595DB0015439F /* money2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money2.png; sourceTree = "<group>"; };
+		E0780A9127D595DB0015439F /* self doubt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "self doubt.png"; sourceTree = "<group>"; };
+		E0780A9227D595DB0015439F /* promotion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = promotion.png; sourceTree = "<group>"; };
+		E0780A9327D595DC0015439F /* sleep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sleep.png; sourceTree = "<group>"; };
+		E0780A9527D595DC0015439F /* stress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stress.png; sourceTree = "<group>"; };
+		E0780A9627D595DC0015439F /* pain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pain.png; sourceTree = "<group>"; };
+		E0780A9727D595DC0015439F /* big idea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "big idea.png"; sourceTree = "<group>"; };
+		E0780A9827D595DC0015439F /* loss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loss.png; sourceTree = "<group>"; };
+		E0780A9927D595DC0015439F /* marriage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marriage.png; sourceTree = "<group>"; };
+		E0780A9A27D595DC0015439F /* friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friends.png; sourceTree = "<group>"; };
+		E0780A9C27D595DC0015439F /* anxiety.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anxiety.png; sourceTree = "<group>"; };
+		E0780A9D27D595DC0015439F /* physical pain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "physical pain.png"; sourceTree = "<group>"; };
+		E0780A9F27D595DC0015439F /* love2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love2.png; sourceTree = "<group>"; };
+		E0780AA027D595DC0015439F /* deadlines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deadlines.png; sourceTree = "<group>"; };
+		E0780AA127D595DC0015439F /* new job.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new job.png"; sourceTree = "<group>"; };
+		E07F068727F100D6001F1293 /* depression.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = depression.png; sourceTree = "<group>"; };
+		E07F068827F100D6001F1293 /* addiction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addiction.png; sourceTree = "<group>"; };
+		E07F068927F100D6001F1293 /* sickness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sickness.png; sourceTree = "<group>"; };
+		E07F068A27F100D6001F1293 /* prof3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prof3.png; sourceTree = "<group>"; };
+		E07F068B27F100D6001F1293 /* Prof2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Prof2.png; sourceTree = "<group>"; };
+		E07F069127F132C6001F1293 /* loopLogo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loopLogo3.png; sourceTree = "<group>"; };
+		E07F069227F132C6001F1293 /* loopLogo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loopLogo2.png; sourceTree = "<group>"; };
+		E08A955F27DD9D8B00CCD405 /* AffirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationViewController.swift; sourceTree = "<group>"; };
+		E0A309CC27B8D32400E720F5 /* ny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ny.png; sourceTree = "<group>"; };
+		E0A309CD27B8D32400E720F5 /* peace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peace.png; sourceTree = "<group>"; };
+		E0A309CE27B8D32400E720F5 /* sunset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunset.png; sourceTree = "<group>"; };
+		E0A309D227B8D85C00E720F5 /* prof1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prof1.png; sourceTree = "<group>"; };
+		E0A309DA27B9521200E720F5 /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
+		E0A309DC27B9521200E720F5 /* health.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = health.png; sourceTree = "<group>"; };
+		E0A309E027B959A800E720F5 /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky.png; sourceTree = "<group>"; };
+		E0A309E227B95B4200E720F5 /* SWgrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SWgrey.png; sourceTree = "<group>"; };
+		E0A309E327B95B4200E720F5 /* SWcolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SWcolor.png; sourceTree = "<group>"; };
+		E0A309E627BB354100E720F5 /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.png; sourceTree = "<group>"; };
+		E0A309E727BB354100E720F5 /* mountain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountain.png; sourceTree = "<group>"; };
+		E0A309E827BB354100E720F5 /* view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view.png; sourceTree = "<group>"; };
+		E0A309E927BB354100E720F5 /* reflect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reflect.png; sourceTree = "<group>"; };
+		E0A309EE27BB3F0100E720F5 /* SWBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SWBlue.png; sourceTree = "<group>"; };
+		E0EBA7FD27EC1CFC00228E2D /* logo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo3.png; sourceTree = "<group>"; };
+		E0EBA80727ECE92000228E2D /* logoIndigo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoIndigo1.png; sourceTree = "<group>"; };
+		E0EBA80827ECE92100228E2D /* logoIndigo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoIndigo2.png; sourceTree = "<group>"; };
+		E0EBA80B27ECE98500228E2D /* marlinPP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marlinPP.png; sourceTree = "<group>"; };
+		E0EBA80D27ECFA0500228E2D /* money3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = money3.png; path = "../../../../../Downloads/loop assets 175/money3.png"; sourceTree = "<group>"; };
+		E0EBA80E27ECFA0500228E2D /* depression2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = depression2.png; sourceTree = "<group>"; };
+		E0EBA81027ECFA0500228E2D /* addiction2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addiction2.png; sourceTree = "<group>"; };
+		E0EBA81127ECFA0500228E2D /* sickness2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sickness2.png; sourceTree = "<group>"; };
+		E0EBA81727ECFA9700228E2D /* confidence2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confidence2.png; sourceTree = "<group>"; };
+		E0F3382827F2A0C600229AA1 /* loopLogo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loopLogo1.png; sourceTree = "<group>"; };
+		E0F3382A27F2A27800229AA1 /* logoIndigo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoIndigo3.png; sourceTree = "<group>"; };
+		E0F3382C27F2A85A00229AA1 /* Heart Chakra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Heart Chakra.mp3"; sourceTree = "<group>"; };
+		E0F3382E27F2AB6500229AA1 /* Native Flute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Native Flute.mp3"; sourceTree = "<group>"; };
+		E0F3383027F2AB8D00229AA1 /* Sacral Chakra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sacral Chakra.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E038CFDB27B2EC1600BB441A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E038CFF127B2EC1800BB441A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E038CFFB27B2EC1800BB441A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E038CFD527B2EC1600BB441A = {
+			isa = PBXGroup;
+			children = (
+				E038CFE027B2EC1600BB441A /* LoopMultiviewTest */,
+				E038CFF727B2EC1800BB441A /* LoopMultiviewTestTests */,
+				E038D00127B2EC1800BB441A /* LoopMultiviewTestUITests */,
+				E038CFDF27B2EC1600BB441A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E038CFDF27B2EC1600BB441A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E038CFDE27B2EC1600BB441A /* LoopMultiviewTest.app */,
+				E038CFF427B2EC1800BB441A /* LoopMultiviewTestTests.xctest */,
+				E038CFFE27B2EC1800BB441A /* LoopMultiviewTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E038CFE027B2EC1600BB441A /* LoopMultiviewTest */ = {
+			isa = PBXGroup;
+			children = (
+				E038CFE127B2EC1600BB441A /* AppDelegate.swift */,
+				E038CFE327B2EC1600BB441A /* SceneDelegate.swift */,
+				E038D01127B2F30A00BB441A /* Controllers */,
+				E038CFE727B2EC1600BB441A /* Main.storyboard */,
+				E038CFEA27B2EC1800BB441A /* Assets.xcassets */,
+				E0A309CB27B8D32400E720F5 /* Loop BG Pics */,
+				E038CFEC27B2EC1800BB441A /* LaunchScreen.storyboard */,
+				E038CFEF27B2EC1800BB441A /* Info.plist */,
+				E0B32C1727BD9FF7009A0EEB /* Music */,
+			);
+			path = LoopMultiviewTest;
+			sourceTree = "<group>";
+		};
+		E038CFF727B2EC1800BB441A /* LoopMultiviewTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E038CFF827B2EC1800BB441A /* LoopMultiviewTestTests.swift */,
+			);
+			path = LoopMultiviewTestTests;
+			sourceTree = "<group>";
+		};
+		E038D00127B2EC1800BB441A /* LoopMultiviewTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E038D00227B2EC1800BB441A /* LoopMultiviewTestUITests.swift */,
+				E038D00427B2EC1800BB441A /* LoopMultiviewTestUITestsLaunchTests.swift */,
+			);
+			path = LoopMultiviewTestUITests;
+			sourceTree = "<group>";
+		};
+		E038D01127B2F30A00BB441A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E038CFE527B2EC1600BB441A /* profileViewController.swift */,
+				E038D01227B2F36600BB441A /* CollectionViewController.swift */,
+				E08A955F27DD9D8B00CCD405 /* AffirmationViewController.swift */,
+				E038D01427B2FD4500BB441A /* RecordViewController.swift */,
+				E038D01627B2FD6100BB441A /* PlayViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E0A309CB27B8D32400E720F5 /* Loop BG Pics */ = {
+			isa = PBXGroup;
+			children = (
+				E0EBA81727ECFA9700228E2D /* confidence2.png */,
+				E0EBA81027ECFA0500228E2D /* addiction2.png */,
+				E0EBA80E27ECFA0500228E2D /* depression2.png */,
+				E076752427ED7EBE00401918 /* confidenceDAB.png */,
+				E076752327ED7EBE00401918 /* weightLossDAB.png */,
+				E0EBA80D27ECFA0500228E2D /* money3.png */,
+				E0EBA81127ECFA0500228E2D /* sickness2.png */,
+				E0EBA80B27ECE98500228E2D /* marlinPP.png */,
+				E0EBA7FD27EC1CFC00228E2D /* logo3.png */,
+				E0EBA80727ECE92000228E2D /* logoIndigo1.png */,
+				E0EBA80827ECE92100228E2D /* logoIndigo2.png */,
+				E0F3382A27F2A27800229AA1 /* logoIndigo3.png */,
+				E0780A9C27D595DC0015439F /* anxiety.png */,
+				E0780A9727D595DC0015439F /* big idea.png */,
+				E0780AA027D595DC0015439F /* deadlines.png */,
+				E0780A9A27D595DC0015439F /* friends.png */,
+				E0780A9827D595DC0015439F /* loss.png */,
+				E0780A9F27D595DC0015439F /* love2.png */,
+				E0780A9927D595DC0015439F /* marriage.png */,
+				E0780A9027D595DB0015439F /* money2.png */,
+				E0780AA127D595DC0015439F /* new job.png */,
+				E0780A9627D595DC0015439F /* pain.png */,
+				E0780A9D27D595DC0015439F /* physical pain.png */,
+				E0780A9227D595DB0015439F /* promotion.png */,
+				E0780A9127D595DB0015439F /* self doubt.png */,
+				E0780A9327D595DC0015439F /* sleep.png */,
+				E0780A9527D595DC0015439F /* stress.png */,
+				E0780A8F27D595DB0015439F /* weightLoss3.png */,
+				E0A309E327B95B4200E720F5 /* SWcolor.png */,
+				E0A309E227B95B4200E720F5 /* SWgrey.png */,
+				E0A309E027B959A800E720F5 /* sky.png */,
+				E07F068827F100D6001F1293 /* addiction.png */,
+				E07F068727F100D6001F1293 /* depression.png */,
+				E07F068B27F100D6001F1293 /* Prof2.png */,
+				E07F068A27F100D6001F1293 /* prof3.png */,
+				E07F068927F100D6001F1293 /* sickness.png */,
+				E0A309DC27B9521200E720F5 /* health.png */,
+				E0A309DA27B9521200E720F5 /* love.png */,
+				E076751427ED40E800401918 /* confidenceDA.png */,
+				E076751327ED40E800401918 /* depressionDA.png */,
+				E076751627ED40E800401918 /* LoveDA.png */,
+				E076751527ED40E800401918 /* moneyDA.png */,
+				E076751827ED40E900401918 /* sicknessDA.png */,
+				E076751727ED40E800401918 /* weightLossDA.png */,
+				E076752127ED421300401918 /* anxietyDA.png */,
+				E0A309EE27BB3F0100E720F5 /* SWBlue.png */,
+				E0A309D227B8D85C00E720F5 /* prof1.png */,
+				E0A309CC27B8D32400E720F5 /* ny.png */,
+				E0A309CD27B8D32400E720F5 /* peace.png */,
+				E0A309CE27B8D32400E720F5 /* sunset.png */,
+				E0A309E727BB354100E720F5 /* mountain.png */,
+				E0A309E927BB354100E720F5 /* reflect.png */,
+				E0A309E627BB354100E720F5 /* tree.png */,
+				E0A309E827BB354100E720F5 /* view.png */,
+				E0F3382827F2A0C600229AA1 /* loopLogo1.png */,
+				E07F069227F132C6001F1293 /* loopLogo2.png */,
+				E07F069127F132C6001F1293 /* loopLogo3.png */,
+			);
+			path = "Loop BG Pics";
+			sourceTree = "<group>";
+		};
+		E0B32C1727BD9FF7009A0EEB /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				E0F3382E27F2AB6500229AA1 /* Native Flute.mp3 */,
+				E0F3383027F2AB8D00229AA1 /* Sacral Chakra.mp3 */,
+				E0F3382C27F2A85A00229AA1 /* Heart Chakra.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E038CFDD27B2EC1600BB441A /* LoopMultiviewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E038D00827B2EC1800BB441A /* Build configuration list for PBXNativeTarget "LoopMultiviewTest" */;
+			buildPhases = (
+				E038CFDA27B2EC1600BB441A /* Sources */,
+				E038CFDB27B2EC1600BB441A /* Frameworks */,
+				E038CFDC27B2EC1600BB441A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoopMultiviewTest;
+			productName = LoopMultiviewTest;
+			productReference = E038CFDE27B2EC1600BB441A /* LoopMultiviewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E038CFF327B2EC1800BB441A /* LoopMultiviewTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E038D00B27B2EC1800BB441A /* Build configuration list for PBXNativeTarget "LoopMultiviewTestTests" */;
+			buildPhases = (
+				E038CFF027B2EC1800BB441A /* Sources */,
+				E038CFF127B2EC1800BB441A /* Frameworks */,
+				E038CFF227B2EC1800BB441A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E038CFF627B2EC1800BB441A /* PBXTargetDependency */,
+			);
+			name = LoopMultiviewTestTests;
+			productName = LoopMultiviewTestTests;
+			productReference = E038CFF427B2EC1800BB441A /* LoopMultiviewTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E038CFFD27B2EC1800BB441A /* LoopMultiviewTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E038D00E27B2EC1800BB441A /* Build configuration list for PBXNativeTarget "LoopMultiviewTestUITests" */;
+			buildPhases = (
+				E038CFFA27B2EC1800BB441A /* Sources */,
+				E038CFFB27B2EC1800BB441A /* Frameworks */,
+				E038CFFC27B2EC1800BB441A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E038D00027B2EC1800BB441A /* PBXTargetDependency */,
+			);
+			name = LoopMultiviewTestUITests;
+			productName = LoopMultiviewTestUITests;
+			productReference = E038CFFE27B2EC1800BB441A /* LoopMultiviewTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E038CFD627B2EC1600BB441A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E038CFDD27B2EC1600BB441A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					E038CFF327B2EC1800BB441A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E038CFDD27B2EC1600BB441A;
+					};
+					E038CFFD27B2EC1800BB441A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E038CFDD27B2EC1600BB441A;
+					};
+				};
+			};
+			buildConfigurationList = E038CFD927B2EC1600BB441A /* Build configuration list for PBXProject "LoopMultiviewTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E038CFD527B2EC1600BB441A;
+			productRefGroup = E038CFDF27B2EC1600BB441A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E038CFDD27B2EC1600BB441A /* LoopMultiviewTest */,
+				E038CFF327B2EC1800BB441A /* LoopMultiviewTestTests */,
+				E038CFFD27B2EC1800BB441A /* LoopMultiviewTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E038CFDC27B2EC1600BB441A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F3382B27F2A27800229AA1 /* logoIndigo3.png in Resources */,
+				E0780AA827D595DC0015439F /* stress.png in Resources */,
+				E0EBA81227ECFA0600228E2D /* money3.png in Resources */,
+				E0A309DD27B9521200E720F5 /* love.png in Resources */,
+				E0A309CF27B8D32400E720F5 /* ny.png in Resources */,
+				E076751A27ED40E900401918 /* depressionDA.png in Resources */,
+				E0A309E427B95B4300E720F5 /* SWgrey.png in Resources */,
+				E07F069427F132C6001F1293 /* loopLogo2.png in Resources */,
+				E076751B27ED40E900401918 /* confidenceDA.png in Resources */,
+				E076752227ED421300401918 /* anxietyDA.png in Resources */,
+				E076751D27ED40E900401918 /* LoveDA.png in Resources */,
+				E0EBA80127EC1CFC00228E2D /* logo3.png in Resources */,
+				E0780AAF27D595DC0015439F /* anxiety.png in Resources */,
+				E0EBA80927ECE92100228E2D /* logoIndigo1.png in Resources */,
+				E0A309D127B8D32400E720F5 /* sunset.png in Resources */,
+				E0A309D527B8D85C00E720F5 /* prof1.png in Resources */,
+				E076751E27ED40E900401918 /* weightLossDA.png in Resources */,
+				E0EBA81527ECFA0600228E2D /* addiction2.png in Resources */,
+				E038CFEE27B2EC1800BB441A /* LaunchScreen.storyboard in Resources */,
+				E0A309E127B959A800E720F5 /* sky.png in Resources */,
+				E0780AA327D595DC0015439F /* money2.png in Resources */,
+				E07F069327F132C6001F1293 /* loopLogo3.png in Resources */,
+				E0780AA427D595DC0015439F /* self doubt.png in Resources */,
+				E07F068F27F100D6001F1293 /* prof3.png in Resources */,
+				E0780AAC27D595DC0015439F /* marriage.png in Resources */,
+				E0780AAA27D595DC0015439F /* big idea.png in Resources */,
+				E0F3382D27F2A85A00229AA1 /* Heart Chakra.mp3 in Resources */,
+				E0780AA927D595DC0015439F /* pain.png in Resources */,
+				E0EBA80C27ECE98500228E2D /* marlinPP.png in Resources */,
+				E07F068C27F100D6001F1293 /* depression.png in Resources */,
+				E0F3382F27F2AB6500229AA1 /* Native Flute.mp3 in Resources */,
+				E0A309E527B95B4300E720F5 /* SWcolor.png in Resources */,
+				E0A309D027B8D32400E720F5 /* peace.png in Resources */,
+				E0780AA227D595DC0015439F /* weightLoss3.png in Resources */,
+				E0EBA81627ECFA0600228E2D /* sickness2.png in Resources */,
+				E07F068D27F100D6001F1293 /* addiction.png in Resources */,
+				E076752527ED7EBE00401918 /* weightLossDAB.png in Resources */,
+				E0EBA81827ECFA9700228E2D /* confidence2.png in Resources */,
+				E0A309DF27B9521200E720F5 /* health.png in Resources */,
+				E0EBA80A27ECE92100228E2D /* logoIndigo2.png in Resources */,
+				E0EBA81327ECFA0600228E2D /* depression2.png in Resources */,
+				E076751C27ED40E900401918 /* moneyDA.png in Resources */,
+				E0A309EC27BB354100E720F5 /* view.png in Resources */,
+				E0780AB327D595DC0015439F /* deadlines.png in Resources */,
+				E0780AB027D595DC0015439F /* physical pain.png in Resources */,
+				E0F3383127F2AB8D00229AA1 /* Sacral Chakra.mp3 in Resources */,
+				E076751F27ED40E900401918 /* sicknessDA.png in Resources */,
+				E0A309EB27BB354100E720F5 /* mountain.png in Resources */,
+				E0780AB427D595DC0015439F /* new job.png in Resources */,
+				E0A309EA27BB354100E720F5 /* tree.png in Resources */,
+				E07F069027F100D6001F1293 /* Prof2.png in Resources */,
+				E0780AA627D595DC0015439F /* sleep.png in Resources */,
+				E0F3382927F2A0C600229AA1 /* loopLogo1.png in Resources */,
+				E07F068E27F100D6001F1293 /* sickness.png in Resources */,
+				E0A309EF27BB3F0100E720F5 /* SWBlue.png in Resources */,
+				E0780AA527D595DC0015439F /* promotion.png in Resources */,
+				E076752627ED7EBE00401918 /* confidenceDAB.png in Resources */,
+				E0780AAB27D595DC0015439F /* loss.png in Resources */,
+				E0780AB227D595DC0015439F /* love2.png in Resources */,
+				E038CFEB27B2EC1800BB441A /* Assets.xcassets in Resources */,
+				E0780AAD27D595DC0015439F /* friends.png in Resources */,
+				E038CFE927B2EC1600BB441A /* Main.storyboard in Resources */,
+				E0A309ED27BB354100E720F5 /* reflect.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E038CFF227B2EC1800BB441A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E038CFFC27B2EC1800BB441A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E038CFDA27B2EC1600BB441A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E038D01327B2F36600BB441A /* CollectionViewController.swift in Sources */,
+				E038CFE627B2EC1600BB441A /* profileViewController.swift in Sources */,
+				E038D01527B2FD4500BB441A /* RecordViewController.swift in Sources */,
+				E038CFE227B2EC1600BB441A /* AppDelegate.swift in Sources */,
+				E038D01727B2FD6100BB441A /* PlayViewController.swift in Sources */,
+				E08A956027DD9D8B00CCD405 /* AffirmationViewController.swift in Sources */,
+				E038CFE427B2EC1600BB441A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E038CFF027B2EC1800BB441A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E038CFF927B2EC1800BB441A /* LoopMultiviewTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E038CFFA27B2EC1800BB441A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E038D00327B2EC1800BB441A /* LoopMultiviewTestUITests.swift in Sources */,
+				E038D00527B2EC1800BB441A /* LoopMultiviewTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E038CFF627B2EC1800BB441A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E038CFDD27B2EC1600BB441A /* LoopMultiviewTest */;
+			targetProxy = E038CFF527B2EC1800BB441A /* PBXContainerItemProxy */;
+		};
+		E038D00027B2EC1800BB441A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E038CFDD27B2EC1600BB441A /* LoopMultiviewTest */;
+			targetProxy = E038CFFF27B2EC1800BB441A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E038CFE727B2EC1600BB441A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E038CFE827B2EC1600BB441A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E038CFEC27B2EC1800BB441A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E038CFED27B2EC1800BB441A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E038D00627B2EC1800BB441A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E038D00727B2EC1800BB441A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E038D00927B2EC1800BB441A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoopMultiviewTest/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Loop App will use the microphone to record.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeyRubin.LoopMultiviewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E038D00A27B2EC1800BB441A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoopMultiviewTest/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Loop App will use the microphone to record.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeyRubin.LoopMultiviewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E038D00C27B2EC1800BB441A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeyRubin.LoopMultiviewTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoopMultiviewTest.app/LoopMultiviewTest";
+			};
+			name = Debug;
+		};
+		E038D00D27B2EC1800BB441A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeyRubin.LoopMultiviewTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoopMultiviewTest.app/LoopMultiviewTest";
+			};
+			name = Release;
+		};
+		E038D00F27B2EC1800BB441A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeyRubin.LoopMultiviewTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoopMultiviewTest;
+			};
+			name = Debug;
+		};
+		E038D01027B2EC1800BB441A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeyRubin.LoopMultiviewTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoopMultiviewTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E038CFD927B2EC1600BB441A /* Build configuration list for PBXProject "LoopMultiviewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E038D00627B2EC1800BB441A /* Debug */,
+				E038D00727B2EC1800BB441A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E038D00827B2EC1800BB441A /* Build configuration list for PBXNativeTarget "LoopMultiviewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E038D00927B2EC1800BB441A /* Debug */,
+				E038D00A27B2EC1800BB441A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E038D00B27B2EC1800BB441A /* Build configuration list for PBXNativeTarget "LoopMultiviewTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E038D00C27B2EC1800BB441A /* Debug */,
+				E038D00D27B2EC1800BB441A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E038D00E27B2EC1800BB441A /* Build configuration list for PBXNativeTarget "LoopMultiviewTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E038D00F27B2EC1800BB441A /* Debug */,
+				E038D01027B2EC1800BB441A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E038CFD627B2EC1600BB441A /* Project object */;
+}
