@@ -446,7 +446,7 @@ class RecordViewController: UIViewController,UITextFieldDelegate,AVAudioRecorder
                 loopPlayed += 1
                 soundTimePassed = 0.0
                 print("even")
-                print(audioPlayer?.volume ?? 0.0)
+//                print(audioPlayer?.volume ?? 0.0)
             
             } else {
                 if let recorder = audioRecorder {
@@ -459,7 +459,7 @@ class RecordViewController: UIViewController,UITextFieldDelegate,AVAudioRecorder
                 }
                 loopPlayed += 1
                 soundTimePassed = 0.0
-                print(audioPlayer2?.volume ?? 0.0)
+//                print(audioPlayer2?.volume ?? 0.0)
                 print("odd")
             }
         } else {
@@ -470,11 +470,40 @@ class RecordViewController: UIViewController,UITextFieldDelegate,AVAudioRecorder
     @objc func updateTimer(){
         if soundTimePassed < recordingDuration {
             soundTimePassed += 0.01
-            print("soundTime\(soundTimePassed)")
+//            print("soundTime\(soundTimePassed)")
             playAudioAtDurration()
-//            progressThrough()
+            pausePlayerat7()
+            endRecordingPlayback()
+
         } else {
             timer.invalidate()
+        }
+    }
+    
+    func pausePlayerat7(){
+        let musicNow = musicPlayer?.currentTime ?? 00
+        
+        switch musicNow {
+        case 420.00...430.00:
+            audioPlayer2?.stop()
+            audioPlayer?.stop()
+            print("Stop now")
+            print("Music Now A -\(musicNow)")
+        case 430.00...totalTime:
+            playAudioAtDurration()
+//            print("Play now")
+//            print("Music Now b -\(musicNow)")
+        default: break
+        }
+        
+    }
+    
+    func endRecordingPlayback(){
+        if musicPlayer!.isPlaying == false {
+            audioPlayer2?.stop()
+            audioPlayer?.stop()
+            timer.invalidate()
+            playButtonPV.setTitle("Play", for: .normal)
         }
     }
     

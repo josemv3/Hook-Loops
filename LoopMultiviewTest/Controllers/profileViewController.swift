@@ -45,12 +45,12 @@ class profileViewController: UIViewController {
         let optionClosure = {(action: UIAction) in
             self.profileChosen = action.title
             print(self.profileChosen)
-            if (self.profileChosen == "Michelle") {
-                self.backGImage.image = UIImage(named: "peace")
-                self.profileButtonImage.image = UIImage(named: "prof3")
-            } else if (self.profileChosen == "Marlin"){
+            if (self.profileChosen == "Marlin") {
                 self.backGImage.image = UIImage(named: "logoIndigo2")
                 self.profileButtonImage.image = UIImage(named: "marlinPP")
+            } else if (self.profileChosen == "Michelle"){
+                self.backGImage.image = UIImage(named: "logoIndigo2")
+                self.profileButtonImage.image = UIImage(named: "prof3")
             } else {
                 self.backGImage.image = UIImage(named: "view")
                 self.profileButtonImage.image = UIImage(named: "prof2")
@@ -60,8 +60,8 @@ class profileViewController: UIViewController {
 
         profileSelectorButton.menu = UIMenu(children: [
         UIAction(title: "Steph", image: UIImage(systemName: "person.crop.circle"),state: .off, handler: optionClosure),
-        UIAction(title: "Marlin", image: UIImage(systemName: "person.crop.circle"),state: .on, handler: optionClosure),
-        UIAction(title: "Michelle", image: UIImage(systemName: "person.crop.circle"),state: .off , handler: optionClosure)
+        UIAction(title: "Michelle", image: UIImage(systemName: "person.crop.circle"),state: .off, handler: optionClosure),
+        UIAction(title: "Marlin", image: UIImage(systemName: "person.crop.circle"),state: .on , handler: optionClosure)
         ])
     
         profileSelectorButton.showsMenuAsPrimaryAction = true

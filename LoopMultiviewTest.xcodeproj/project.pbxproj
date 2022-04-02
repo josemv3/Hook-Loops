@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E00D92A427F8E895006BD1B2 /* money3.png in Resources */ = {isa = PBXBuildFile; fileRef = E00D92A327F8E895006BD1B2 /* money3.png */; };
 		E038CFE227B2EC1600BB441A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038CFE127B2EC1600BB441A /* AppDelegate.swift */; };
 		E038CFE427B2EC1600BB441A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038CFE327B2EC1600BB441A /* SceneDelegate.swift */; };
 		E038CFE627B2EC1600BB441A /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038CFE527B2EC1600BB441A /* profileViewController.swift */; };
@@ -48,7 +49,7 @@
 		E07F068D27F100D6001F1293 /* addiction.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F068827F100D6001F1293 /* addiction.png */; };
 		E07F068E27F100D6001F1293 /* sickness.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F068927F100D6001F1293 /* sickness.png */; };
 		E07F068F27F100D6001F1293 /* prof3.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F068A27F100D6001F1293 /* prof3.png */; };
-		E07F069027F100D6001F1293 /* Prof2.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F068B27F100D6001F1293 /* Prof2.png */; };
+		E07F069027F100D6001F1293 /* prof2.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F068B27F100D6001F1293 /* prof2.png */; };
 		E07F069327F132C6001F1293 /* loopLogo3.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F069127F132C6001F1293 /* loopLogo3.png */; };
 		E07F069427F132C6001F1293 /* loopLogo2.png in Resources */ = {isa = PBXBuildFile; fileRef = E07F069227F132C6001F1293 /* loopLogo2.png */; };
 		E08A956027DD9D8B00CCD405 /* AffirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A955F27DD9D8B00CCD405 /* AffirmationViewController.swift */; };
@@ -66,11 +67,11 @@
 		E0A309EC27BB354100E720F5 /* view.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A309E827BB354100E720F5 /* view.png */; };
 		E0A309ED27BB354100E720F5 /* reflect.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A309E927BB354100E720F5 /* reflect.png */; };
 		E0A309EF27BB3F0100E720F5 /* SWBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A309EE27BB3F0100E720F5 /* SWBlue.png */; };
+		E0AB1A6A27F8DF25005F3C3F /* Heart Chakra30.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0AB1A6927F8DF25005F3C3F /* Heart Chakra30.mp3 */; };
 		E0EBA80127EC1CFC00228E2D /* logo3.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EBA7FD27EC1CFC00228E2D /* logo3.png */; };
 		E0EBA80927ECE92100228E2D /* logoIndigo1.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EBA80727ECE92000228E2D /* logoIndigo1.png */; };
 		E0EBA80A27ECE92100228E2D /* logoIndigo2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EBA80827ECE92100228E2D /* logoIndigo2.png */; };
 		E0EBA80C27ECE98500228E2D /* marlinPP.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EBA80B27ECE98500228E2D /* marlinPP.png */; };
-		E0EBA81227ECFA0600228E2D /* money3.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EBA80D27ECFA0500228E2D /* money3.png */; };
 		E0EBA81327ECFA0600228E2D /* depression2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EBA80E27ECFA0500228E2D /* depression2.png */; };
 		E0EBA81527ECFA0600228E2D /* addiction2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EBA81027ECFA0500228E2D /* addiction2.png */; };
 		E0EBA81627ECFA0600228E2D /* sickness2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EBA81127ECFA0500228E2D /* sickness2.png */; };
@@ -100,6 +101,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E00D92A327F8E895006BD1B2 /* money3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money3.png; sourceTree = "<group>"; };
 		E038CFDE27B2EC1600BB441A /* LoopMultiviewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoopMultiviewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E038CFE127B2EC1600BB441A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E038CFE327B2EC1600BB441A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,7 +147,7 @@
 		E07F068827F100D6001F1293 /* addiction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addiction.png; sourceTree = "<group>"; };
 		E07F068927F100D6001F1293 /* sickness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sickness.png; sourceTree = "<group>"; };
 		E07F068A27F100D6001F1293 /* prof3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prof3.png; sourceTree = "<group>"; };
-		E07F068B27F100D6001F1293 /* Prof2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Prof2.png; sourceTree = "<group>"; };
+		E07F068B27F100D6001F1293 /* prof2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prof2.png; sourceTree = "<group>"; };
 		E07F069127F132C6001F1293 /* loopLogo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loopLogo3.png; sourceTree = "<group>"; };
 		E07F069227F132C6001F1293 /* loopLogo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loopLogo2.png; sourceTree = "<group>"; };
 		E08A955F27DD9D8B00CCD405 /* AffirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationViewController.swift; sourceTree = "<group>"; };
@@ -163,11 +165,11 @@
 		E0A309E827BB354100E720F5 /* view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view.png; sourceTree = "<group>"; };
 		E0A309E927BB354100E720F5 /* reflect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reflect.png; sourceTree = "<group>"; };
 		E0A309EE27BB3F0100E720F5 /* SWBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SWBlue.png; sourceTree = "<group>"; };
+		E0AB1A6927F8DF25005F3C3F /* Heart Chakra30.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Heart Chakra30.mp3"; sourceTree = "<group>"; };
 		E0EBA7FD27EC1CFC00228E2D /* logo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo3.png; sourceTree = "<group>"; };
 		E0EBA80727ECE92000228E2D /* logoIndigo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoIndigo1.png; sourceTree = "<group>"; };
 		E0EBA80827ECE92100228E2D /* logoIndigo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoIndigo2.png; sourceTree = "<group>"; };
 		E0EBA80B27ECE98500228E2D /* marlinPP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marlinPP.png; sourceTree = "<group>"; };
-		E0EBA80D27ECFA0500228E2D /* money3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = money3.png; path = "../../../../../Downloads/loop assets 175/money3.png"; sourceTree = "<group>"; };
 		E0EBA80E27ECFA0500228E2D /* depression2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = depression2.png; sourceTree = "<group>"; };
 		E0EBA81027ECFA0500228E2D /* addiction2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addiction2.png; sourceTree = "<group>"; };
 		E0EBA81127ECFA0500228E2D /* sickness2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sickness2.png; sourceTree = "<group>"; };
@@ -277,7 +279,6 @@
 				E0EBA80E27ECFA0500228E2D /* depression2.png */,
 				E076752427ED7EBE00401918 /* confidenceDAB.png */,
 				E076752327ED7EBE00401918 /* weightLossDAB.png */,
-				E0EBA80D27ECFA0500228E2D /* money3.png */,
 				E0EBA81127ECFA0500228E2D /* sickness2.png */,
 				E0EBA80B27ECE98500228E2D /* marlinPP.png */,
 				E0EBA7FD27EC1CFC00228E2D /* logo3.png */,
@@ -292,6 +293,7 @@
 				E0780A9F27D595DC0015439F /* love2.png */,
 				E0780A9927D595DC0015439F /* marriage.png */,
 				E0780A9027D595DB0015439F /* money2.png */,
+				E00D92A327F8E895006BD1B2 /* money3.png */,
 				E0780AA127D595DC0015439F /* new job.png */,
 				E0780A9627D595DC0015439F /* pain.png */,
 				E0780A9D27D595DC0015439F /* physical pain.png */,
@@ -305,7 +307,7 @@
 				E0A309E027B959A800E720F5 /* sky.png */,
 				E07F068827F100D6001F1293 /* addiction.png */,
 				E07F068727F100D6001F1293 /* depression.png */,
-				E07F068B27F100D6001F1293 /* Prof2.png */,
+				E07F068B27F100D6001F1293 /* prof2.png */,
 				E07F068A27F100D6001F1293 /* prof3.png */,
 				E07F068927F100D6001F1293 /* sickness.png */,
 				E0A309DC27B9521200E720F5 /* health.png */,
@@ -339,6 +341,7 @@
 				E0F3382E27F2AB6500229AA1 /* Native Flute.mp3 */,
 				E0F3383027F2AB8D00229AA1 /* Sacral Chakra.mp3 */,
 				E0F3382C27F2A85A00229AA1 /* Heart Chakra.mp3 */,
+				E0AB1A6927F8DF25005F3C3F /* Heart Chakra30.mp3 */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -449,7 +452,6 @@
 			files = (
 				E0F3382B27F2A27800229AA1 /* logoIndigo3.png in Resources */,
 				E0780AA827D595DC0015439F /* stress.png in Resources */,
-				E0EBA81227ECFA0600228E2D /* money3.png in Resources */,
 				E0A309DD27B9521200E720F5 /* love.png in Resources */,
 				E0A309CF27B8D32400E720F5 /* ny.png in Resources */,
 				E076751A27ED40E900401918 /* depressionDA.png in Resources */,
@@ -472,6 +474,7 @@
 				E0780AA427D595DC0015439F /* self doubt.png in Resources */,
 				E07F068F27F100D6001F1293 /* prof3.png in Resources */,
 				E0780AAC27D595DC0015439F /* marriage.png in Resources */,
+				E00D92A427F8E895006BD1B2 /* money3.png in Resources */,
 				E0780AAA27D595DC0015439F /* big idea.png in Resources */,
 				E0F3382D27F2A85A00229AA1 /* Heart Chakra.mp3 in Resources */,
 				E0780AA927D595DC0015439F /* pain.png in Resources */,
@@ -497,7 +500,7 @@
 				E0A309EB27BB354100E720F5 /* mountain.png in Resources */,
 				E0780AB427D595DC0015439F /* new job.png in Resources */,
 				E0A309EA27BB354100E720F5 /* tree.png in Resources */,
-				E07F069027F100D6001F1293 /* Prof2.png in Resources */,
+				E07F069027F100D6001F1293 /* prof2.png in Resources */,
 				E0780AA627D595DC0015439F /* sleep.png in Resources */,
 				E0F3382927F2A0C600229AA1 /* loopLogo1.png in Resources */,
 				E07F068E27F100D6001F1293 /* sickness.png in Resources */,
@@ -508,6 +511,7 @@
 				E0780AB227D595DC0015439F /* love2.png in Resources */,
 				E038CFEB27B2EC1800BB441A /* Assets.xcassets in Resources */,
 				E0780AAD27D595DC0015439F /* friends.png in Resources */,
+				E0AB1A6A27F8DF25005F3C3F /* Heart Chakra30.mp3 in Resources */,
 				E038CFE927B2EC1600BB441A /* Main.storyboard in Resources */,
 				E0A309ED27BB354100E720F5 /* reflect.png in Resources */,
 			);
@@ -722,6 +726,7 @@
 				DEVELOPMENT_TEAM = QDDDA27M89;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LoopMultiviewTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hypno-Loops";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Loop App will use the microphone to record.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -751,6 +756,7 @@
 				DEVELOPMENT_TEAM = QDDDA27M89;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LoopMultiviewTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hypno-Loops";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Loop App will use the microphone to record.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
