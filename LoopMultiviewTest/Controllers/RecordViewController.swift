@@ -146,9 +146,11 @@ class RecordViewController: UIViewController,UITextFieldDelegate,AVAudioRecorder
         if fileNameText.text != "" {
             recordingName = fileNameText.text!
             print(recordingName)
+            recordingSelectedButton.isEnabled = true
 //            recordingSelectedButton.setTitle(recordingName, for: .normal)
             recordingSelectedPopup()
-            
+            songSelectedButton.isEnabled = true
+            playButtonPV.isEnabled = true
 //            self.performSegue(withIdentifier: "goToPlayVC", sender: self)
             fileNameText.endEditing(true)
             
