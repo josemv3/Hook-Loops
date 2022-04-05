@@ -51,7 +51,7 @@ class CollectionViewController: UIViewController {
             profileButtonImage.image = UIImage(named: "prof2")
         }
         
-        self.navigationItem.titleView = UIImageView(image: UIImage(named: "loopLogo1"))
+        self.navigationItem.titleView = UIImageView(image: UIImage(named: "loopLogo2"))
         
         profileButtonImage.roundImage()
         firstImage.roundImage()

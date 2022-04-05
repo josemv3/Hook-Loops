@@ -55,7 +55,7 @@ class RecordViewController: UIViewController,UITextFieldDelegate,AVAudioRecorder
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.titleView = UIImageView(image: UIImage(named: "loopLogo1"))
+        self.navigationItem.titleView = UIImageView(image: UIImage(named: "loopLogo2"))
         
 //        if (profileSelectedRV == "Michelle") {
 //            profileImage.image = UIImage(named: "prof3")

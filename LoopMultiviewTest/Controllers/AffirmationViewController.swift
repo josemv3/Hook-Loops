@@ -50,7 +50,7 @@ class AffirmationViewController: UIViewController {
         genreSelectedLabelAVC.text = genreFromCV
         profileImageACV.roundImage()
 
-        self.navigationItem.titleView = UIImageView(image: UIImage(named: "loopLogo1"))
+        self.navigationItem.titleView = UIImageView(image: UIImage(named: "loopLogo2"))
         
         switch genreFromCV {
         case "Love":

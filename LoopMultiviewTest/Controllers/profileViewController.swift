@@ -30,7 +30,7 @@ class profileViewController: UIViewController {
 //        self.navigationController!.navigationBar.shadowImage = UIImage()
 //        self.navigationController!.navigationBar.isTranslucent = true
 //        self.navigationController?.view.backgroundColor = .clear
-        self.navigationItem.titleView = UIImageView(image: UIImage(named: "loopLogo1"))
+        self.navigationItem.titleView = UIImageView(image: UIImage(named: "loopLogo2"))
         
     }
 
