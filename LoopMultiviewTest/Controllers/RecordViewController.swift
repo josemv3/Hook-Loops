@@ -52,6 +52,8 @@ class RecordViewController: UIViewController,UITextFieldDelegate,AVAudioRecorder
     var soundTimePassed = 0.0
     var loopPlayed = 0 //NOT USED
     
+    var reverb = AVAudioUnitReverb()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -335,7 +337,12 @@ class RecordViewController: UIViewController,UITextFieldDelegate,AVAudioRecorder
                           audioPlayer?.delegate = self
                           audioPlayer?.play()
                           audioPlayer?.volume = 0.1
-//
+                          
+                          //Reverb here?
+//                          reverb.loadFactoryPreset(.plate)
+//                          reverb.wetDryMix = 100
+                          
+
                           recordingDuration = audioPlayer?.duration ?? 0.0
                           print("recordingDuration\(recordingDuration)")
                           
