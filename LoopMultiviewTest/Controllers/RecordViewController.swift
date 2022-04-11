@@ -425,7 +425,7 @@ class RecordViewController: UIViewController,UITextFieldDelegate,AVAudioRecorder
     }
     
     func playAudioAtDurration() {
-        let result = recordingDuration - 0.29
+        let result = recordingDuration - 0.30
 //        Oeginaly at .30, can go to .28 for faster but that seems as far as you can go without stepping on         the other vocal playback.
         if soundTimePassed >= result {
             if (loopPlayed % 2 == 0) {

@@ -29,7 +29,7 @@ class AffirmationViewController: UIViewController {
         ["Addiction", "I am getting stronger everyday.", "I love myself enough to change."],
         ["Confidence,", "I am unstoppable.", "I will thrive in any situation."],
         ["Money", "I am a money magnet.", "I am totally debt free."],
-        ["Weight Loss", "I am motivted to eat healthier.", "I am the master of this vessel."],
+        ["Weight Loss", "I am motivated to eat healthier.", "I am the master of this vessel."],
         ["Relationships", "Custom Affirmation.", "Custom Affirmation."],
         ["Self Doubt", "Custom Affirmation.", "Custom Affirmation."],
         ["Blank", "Custom Affirmation.", "Custom Affirmation."]

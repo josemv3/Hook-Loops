@@ -726,7 +726,7 @@
 				DEVELOPMENT_TEAM = QDDDA27M89;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LoopMultiviewTest/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Hypno-Loops";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hypno Loops";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Loop App will use the microphone to record.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -756,7 +756,7 @@
 				DEVELOPMENT_TEAM = QDDDA27M89;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LoopMultiviewTest/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Hypno-Loops";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hypno Loops";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Loop App will use the microphone to record.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
