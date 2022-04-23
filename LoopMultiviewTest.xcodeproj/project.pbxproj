@@ -20,6 +20,7 @@
 		E038D01327B2F36600BB441A /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038D01227B2F36600BB441A /* CollectionViewController.swift */; };
 		E038D01527B2FD4500BB441A /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038D01427B2FD4500BB441A /* RecordViewController.swift */; };
 		E038D01727B2FD6100BB441A /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038D01627B2FD6100BB441A /* PlayViewController.swift */; };
+		E057965A28149E20000915A7 /* FileManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E057965928149E20000915A7 /* FileManagerExtensions.swift */; };
 		E076751A27ED40E900401918 /* depressionDA.png in Resources */ = {isa = PBXBuildFile; fileRef = E076751327ED40E800401918 /* depressionDA.png */; };
 		E076751B27ED40E900401918 /* confidenceDA.png in Resources */ = {isa = PBXBuildFile; fileRef = E076751427ED40E800401918 /* confidenceDA.png */; };
 		E076751C27ED40E900401918 /* moneyDA.png in Resources */ = {isa = PBXBuildFile; fileRef = E076751527ED40E800401918 /* moneyDA.png */; };
@@ -118,6 +119,7 @@
 		E038D01227B2F36600BB441A /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionViewController.swift; path = LoopMultiviewTest/CollectionViewController.swift; sourceTree = SOURCE_ROOT; };
 		E038D01427B2FD4500BB441A /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 		E038D01627B2FD6100BB441A /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		E057965928149E20000915A7 /* FileManagerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtensions.swift; sourceTree = "<group>"; };
 		E076751327ED40E800401918 /* depressionDA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = depressionDA.png; sourceTree = "<group>"; };
 		E076751427ED40E800401918 /* confidenceDA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confidenceDA.png; sourceTree = "<group>"; };
 		E076751527ED40E800401918 /* moneyDA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moneyDA.png; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 			children = (
 				E038CFE127B2EC1600BB441A /* AppDelegate.swift */,
 				E038CFE327B2EC1600BB441A /* SceneDelegate.swift */,
+				E057965828149DB1000915A7 /* Extensions */,
 				E038D01127B2F30A00BB441A /* Controllers */,
 				E038CFE727B2EC1600BB441A /* Main.storyboard */,
 				E038CFEA27B2EC1800BB441A /* Assets.xcassets */,
@@ -269,6 +272,14 @@
 				E038D01627B2FD6100BB441A /* PlayViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E057965828149DB1000915A7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E057965928149E20000915A7 /* FileManagerExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E0A309CB27B8D32400E720F5 /* Loop BG Pics */ = {
@@ -539,6 +550,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E038D01327B2F36600BB441A /* CollectionViewController.swift in Sources */,
+				E057965A28149E20000915A7 /* FileManagerExtensions.swift in Sources */,
 				E038CFE627B2EC1600BB441A /* profileViewController.swift in Sources */,
 				E038D01527B2FD4500BB441A /* RecordViewController.swift in Sources */,
 				E038CFE227B2EC1600BB441A /* AppDelegate.swift in Sources */,
